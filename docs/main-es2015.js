@@ -293,7 +293,7 @@ module.exports = "<div class=\"site-header\">\r\n    <app-header-topbar></app-he
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"mobile-header\">\r\n    <div class=\"mobile-header__panel\">\r\n        <div class=\"container\">\r\n            <div class=\"mobile-header__body\">\r\n                <button class=\"mobile-header__menu-button\" (click)=\"menu.open()\">\r\n                    <app-icon name=\"menu-18x14\" size=\"18x14\"></app-icon>\r\n                </button>\r\n                <a class=\"mobile-header__logo\" routerLink=\"./home\">\r\n                    <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"120px\" height=\"20px\">\r\n                        <path d=\"M118.5,20h-1.1c-0.6,0-1.2-0.4-1.4-1l-1.5-4h-6.1l-1.5,4c-0.2,0.6-0.8,1-1.4,1h-1.1c-1,0-1.8-1-1.4-2l1.1-3\r\n                                 l1.5-4l3.6-10c0.2-0.6,0.8-1,1.4-1h1.6c0.6,0,1.2,0.4,1.4,1l3.6,10l1.5,4l1.1,3C120.3,19,119.5,20,118.5,20z M111.5,6.6l-1.6,4.4\r\n                                 h3.2L111.5,6.6z M99.5,20h-1.4c-0.4,0-0.7-0.2-0.9-0.5L94,14l-2,3.5v1c0,0.8-0.7,1.5-1.5,1.5h-1c-0.8,0-1.5-0.7-1.5-1.5v-17\r\n                                 C88,0.7,88.7,0,89.5,0h1C91.3,0,92,0.7,92,1.5v8L94,6l3.2-5.5C97.4,0.2,97.7,0,98.1,0h1.4c1.2,0,1.9,1.3,1.3,2.3L96.3,10l4.5,7.8\r\n                                 C101.4,18.8,100.7,20,99.5,20z M80.3,11.8L80,12.3v6.2c0,0.8-0.7,1.5-1.5,1.5h-1c-0.8,0-1.5-0.7-1.5-1.5v-6.2l-0.3-0.5l-5.5-9.5\r\n                                 c-0.6-1,0.2-2.3,1.3-2.3h1.4c0.4,0,0.7,0.2,0.9,0.5L76,4.3l2,3.5l2-3.5l2.2-3.8C82.4,0.2,82.7,0,83.1,0h1.4c1.2,0,1.9,1.3,1.3,2.3\r\n                                 L80.3,11.8z M60,20c-5.5,0-10-4.5-10-10S54.5,0,60,0s10,4.5,10,10S65.5,20,60,20z M60,4c-3.3,0-6,2.7-6,6s2.7,6,6,6s6-2.7,6-6\r\n                                 S63.3,4,60,4z M47.8,17.8c0.6,1-0.2,2.3-1.3,2.3h-2L41,14h-4v4.5c0,0.8-0.7,1.5-1.5,1.5h-1c-0.8,0-1.5-0.7-1.5-1.5v-17\r\n                                 C33,0.7,33.7,0,34.5,0H41c0.3,0,0.7,0,1,0.1c3.4,0.5,6,3.4,6,6.9c0,2.4-1.2,4.5-3.1,5.8L47.8,17.8z M42,4.2C41.7,4.1,41.3,4,41,4h-3\r\n                                 c-0.6,0-1,0.4-1,1v4c0,0.6,0.4,1,1,1h3c0.3,0,0.7-0.1,1-0.2c0.3-0.1,0.6-0.3,0.9-0.5C43.6,8.8,44,7.9,44,7C44,5.7,43.2,4.6,42,4.2z\r\n                                  M29.5,4H25v14.5c0,0.8-0.7,1.5-1.5,1.5h-1c-0.8,0-1.5-0.7-1.5-1.5V4h-4.5C15.7,4,15,3.3,15,2.5v-1C15,0.7,15.7,0,16.5,0h13\r\n                                 C30.3,0,31,0.7,31,1.5v1C31,3.3,30.3,4,29.5,4z M6.5,20c-2.8,0-5.5-1.7-6.4-4c-0.4-1,0.3-2,1.3-2h1c0.5,0,0.9,0.3,1.2,0.7\r\n                                 c0.2,0.3,0.4,0.6,0.8,0.8C4.9,15.8,5.8,16,6.5,16c1.5,0,2.8-0.9,2.8-2c0-0.7-0.5-1.3-1.2-1.6C7.4,12,7,11,7.4,10.3l0.4-0.9\r\n                                 c0.4-0.7,1.2-1,1.8-0.6c0.6,0.3,1.2,0.7,1.6,1.2c1,1.1,1.7,2.5,1.7,4C13,17.3,10.1,20,6.5,20z M11.6,6h-1c-0.5,0-0.9-0.3-1.2-0.7\r\n                                 C9.2,4.9,8.9,4.7,8.6,4.5C8.1,4.2,7.2,4,6.5,4C5,4,3.7,4.9,3.7,6c0,0.7,0.5,1.3,1.2,1.6C5.6,8,6,9,5.6,9.7l-0.4,0.9\r\n                                 c-0.4,0.7-1.2,1-1.8,0.6c-0.6-0.3-1.2-0.7-1.6-1.2C0.6,8.9,0,7.5,0,6c0-3.3,2.9-6,6.5-6c2.8,0,5.5,1.7,6.4,4C13.3,4.9,12.6,6,11.6,6\r\n                                 z\"></path>\r\n                    </svg>\r\n                </a>\r\n                <div class=\"mobile-header__search\" appDropdown=\"mobile-header__search--opened\" #search=\"appDropdown\">\r\n                    <form class=\"mobile-header__search-form\" action=\"\">\r\n                        <input class=\"mobile-header__search-input\" name=\"search\" placeholder=\"Search over 10,000 products\" aria-label=\"Site search\" type=\"text\" autocomplete=\"off\" (keydown.escape)=\"search.close()\" #searchInput>\r\n                        <button class=\"mobile-header__search-button mobile-header__search-button--submit\" type=\"submit\">\r\n                            <app-icon name=\"search-20\" size=\"20\"></app-icon>\r\n                        </button>\r\n                        <button class=\"mobile-header__search-button mobile-header__search-button--close\" type=\"button\" (click)=\"search.close()\">\r\n                            <app-icon name=\"cross-20\" size=\"20\"></app-icon>\r\n                        </button>\r\n                        <div class=\"mobile-header__search-body\"></div>\r\n                    </form>\r\n                </div>\r\n\r\n                <div class=\"mobile-header__indicators\">\r\n                    <div class=\"indicator indicator--mobile-search indicator--mobile d-sm-none\">\r\n                        <button class=\"indicator__button\" (click)=\"search.open(); searchInput.focus()\">\r\n                            <span class=\"indicator__area\">\r\n                                <app-icon name=\"search-20\" size=\"20\"></app-icon>\r\n                            </span>\r\n                        </button>\r\n                    </div>\r\n\r\n                    <div class=\"indicator indicator--mobile d-sm-flex d-none\">\r\n                        <a routerLink=\"./shop/wishlist\" class=\"indicator__button\">\r\n                            <span class=\"indicator__area\">\r\n                                <app-icon name=\"heart-20\" size=\"20\"></app-icon>\r\n                                <span class=\"indicator__value\">{{ wishlist.count$|async }}</span>\r\n                            </span>\r\n                        </a>\r\n                    </div>\r\n\r\n                    <div class=\"indicator indicator--mobile\">\r\n                        <a routerLink=\"./shop/cart\" class=\"indicator__button\">\r\n                            <span class=\"indicator__area\">\r\n                                <app-icon name=\"cart-20\" size=\"20\"></app-icon>\r\n                                <span class=\"indicator__value\">{{ cart.quantity$|async }}</span>\r\n                            </span>\r\n                        </a>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n"
+module.exports = "<div class=\"mobile-header\">\r\n    <div class=\"mobile-header__panel\">\r\n        <div class=\"container\">\r\n            <div class=\"mobile-header__body\">\r\n                <button class=\"mobile-header__menu-button\" (click)=\"menu.open()\">\r\n                    <app-icon name=\"menu-18x14\" size=\"18x14\"></app-icon>\r\n                </button>\r\n                <a class=\"mobile-header__logo\" routerLink=\"./home\">\r\n                    <img src=\"assets/images/logo.png\" alt=\"\">\r\n                </a>\r\n                <div class=\"mobile-header__search\" appDropdown=\"mobile-header__search--opened\" #search=\"appDropdown\">\r\n                    <form class=\"mobile-header__search-form\" action=\"\">\r\n                        <input class=\"mobile-header__search-input\" name=\"search\" placeholder=\"Search over 10,000 products\" aria-label=\"Site search\" type=\"text\" autocomplete=\"off\" (keydown.escape)=\"search.close()\" #searchInput>\r\n                        <button class=\"mobile-header__search-button mobile-header__search-button--submit\" type=\"submit\">\r\n                            <app-icon name=\"search-20\" size=\"20\"></app-icon>\r\n                        </button>\r\n                        <button class=\"mobile-header__search-button mobile-header__search-button--close\" type=\"button\" (click)=\"search.close()\">\r\n                            <app-icon name=\"cross-20\" size=\"20\"></app-icon>\r\n                        </button>\r\n                        <div class=\"mobile-header__search-body\"></div>\r\n                    </form>\r\n                </div>\r\n\r\n                <div class=\"mobile-header__indicators\">\r\n                    <div class=\"indicator indicator--mobile-search indicator--mobile d-sm-none\">\r\n                        <button class=\"indicator__button\" (click)=\"search.open(); searchInput.focus()\">\r\n                            <span class=\"indicator__area\">\r\n                                <app-icon name=\"search-20\" size=\"20\"></app-icon>\r\n                            </span>\r\n                        </button>\r\n                    </div>\r\n\r\n                    <div class=\"indicator indicator--mobile d-sm-flex d-none\">\r\n                        <a routerLink=\"./shop/wishlist\" class=\"indicator__button\">\r\n                            <span class=\"indicator__area\">\r\n                                <app-icon name=\"heart-20\" size=\"20\"></app-icon>\r\n                                <span class=\"indicator__value\">{{ wishlist.count$|async }}</span>\r\n                            </span>\r\n                        </a>\r\n                    </div>\r\n\r\n                    <div class=\"indicator indicator--mobile\">\r\n                        <a routerLink=\"./shop/cart\" class=\"indicator__button\">\r\n                            <span class=\"indicator__area\">\r\n                                <app-icon name=\"cart-20\" size=\"20\"></app-icon>\r\n                                <span class=\"indicator__value\">{{ cart.quantity$|async }}</span>\r\n                            </span>\r\n                        </a>\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n"
 
 /***/ }),
 
@@ -546,7 +546,7 @@ module.exports = "<div class=\"product-card\" [ngClass]=\"{\r\n    'product-card
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"product product--layout--{{ layout }}\" *ngIf=\"product\">\r\n    <div class=\"product__content\">\r\n        <!-- .product__gallery -->\r\n        <div class=\"product__gallery\">\r\n            <div class=\"product-gallery\" *ngIf=\"showGallery\">\r\n                <div class=\"product-gallery__featured\">\r\n                    \r\n                    <owl-carousel-o [options]=\"carouselOptions\" (changed)=\"featuredCarouselTranslated($event)\" appOwlPreventClick #featuredCarousel>\r\n                        <ng-container *ngFor=\"let image of images\">\r\n                            <ng-template carouselSlide [id]=\"image.id\">\r\n                                <a (click)=\"openModal(template)\">\r\n                                    <span class=\"bg\">\r\n                                        <img [src]=\"image.url\" alt=\"\" #imageElement>\r\n                                    </span>\r\n                                </a>\r\n                            </ng-template>\r\n                        </ng-container>\r\n                    </owl-carousel-o>\r\n                </div>\r\n                <!-- <div class=\"product-gallery__carousel\">\r\n                    <owl-carousel-o [options]=\"thumbnailsCarouselOptions\" [appFakeSlides]=\"images.length\" #fakeSlides=\"appFakeSlides\" appOwlPreventClick #thumbnailsCarousel>\r\n                        <ng-container *ngFor=\"let image of images\">\r\n                            <ng-template carouselSlide [id]=\"image.id\">\r\n                                <span class=\"product-gallery__carousel-item\"\r\n                                   [ngClass]=\"{'product-gallery__carousel-item--active': image.active}\"\r\n                                   appClick (click)=\"featuredCarousel.to(image.id); setActiveImage(image)\">\r\n                                    <img class=\"product-gallery__carousel-image\" [src]=\"image.url\" alt=\"\">\r\n                                </span>\r\n                            </ng-template>\r\n                        </ng-container>\r\n                        <ng-container *ngFor=\"let i of fakeSlides.slides\">\r\n                            <ng-template carouselSlide [id]=\"'fake-slide-'+i\"></ng-template>\r\n                        </ng-container>\r\n                    </owl-carousel-o>\r\n                </div> -->\r\n            </div>\r\n        </div>\r\n        <!-- .product__gallery / end -->\r\n        <!-- .product__info -->\r\n        <div class=\"product__info\">\r\n            <div class=\"product__wishlist-compare\">\r\n                <button type=\"button\" class=\"btn btn-sm btn-light btn-svg-icon\" data-toggle=\"tooltip\" data-placement=\"right\" title=\"Wishlist\"\r\n                        appClick (click)=\"addToWishlist()\"\r\n                        [ngClass]=\"{'btn-loading': addingToWishlist}\">\r\n                    <app-icon name=\"wishlist-16\" size=\"16\"></app-icon>\r\n                </button>\r\n                <button type=\"button\" class=\"btn btn-sm btn-light btn-svg-icon\" data-toggle=\"tooltip\" data-placement=\"right\" title=\"Compare\"\r\n                        appClick (click)=\"addToCompare()\"\r\n                        [ngClass]=\"{'btn-loading': addingToCompare}\">\r\n                    <app-icon name=\"compare-16\" size=\"16\"></app-icon>\r\n                </button>\r\n            </div>\r\n            <h1 class=\"product__name\">{{ product.name }}</h1>\r\n            <div class=\"product__rating\">\r\n                <div class=\"product__rating-stars\">\r\n                    <app-rating [value]=\"product.rating\"></app-rating>\r\n                </div>\r\n                <div class=\"product__rating-legend\">\r\n                    <a href=\"\" appClick>{{ product.reviews }} Reviews</a><span>/</span><a href=\"\" appClick>Write A Review</a>\r\n                </div>\r\n            </div>\r\n            <div class=\"product__description\">\r\n                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ornare, mi in ornare elementum, libero nibh\r\n                lacinia urna, quis convallis lorem erat at purus. Maecenas eu varius nisi.\r\n            </div>\r\n            <ul class=\"product__features\">\r\n                <li>Speed: 750 RPM</li>\r\n                <li>Power Source: Cordless-Electric</li>\r\n                <li>Battery Cell Type: Lithium</li>\r\n                <li>Voltage: 20 Volts</li>\r\n                <li>Battery Capacity: 2 Ah</li>\r\n            </ul>\r\n            <ul class=\"product__meta\">\r\n                <li class=\"product__meta-availability\">Availability: <span class=\"text-success\">In Stock</span></li>\r\n                <li>Brand: <a href=\"\" appClick>Wakita</a></li>\r\n                <li>SKU: 83690/32</li>\r\n            </ul>\r\n        </div>\r\n        <!-- .product__info / end -->\r\n        <!-- .product__sidebar -->\r\n        <div class=\"product__sidebar\">\r\n            <div class=\"product__availability\">\r\n                Availability: <span class=\"text-success\">In Stock</span>\r\n            </div>\r\n\r\n            <div class=\"product__prices\">\r\n                <ng-container *ngIf=\"product.compareAtPrice\">\r\n                    <span class=\"product__new-price\">{{ product.price|currencyFormat }}</span>{{ ' ' }}\r\n                    <span class=\"product__old-price\">{{ product.compareAtPrice|currencyFormat }}</span>\r\n                </ng-container>\r\n                <ng-container *ngIf=\"!product.compareAtPrice\">\r\n                    {{ product.price|currencyFormat }}\r\n                </ng-container>\r\n            </div>\r\n            <!-- .product__options -->\r\n            <form class=\"product__options\">\r\n                <!-- <div class=\"form-group product__option\">\r\n                    <label class=\"product__option-label\">Color</label>\r\n                    <div class=\"input-radio-color\">\r\n                        <div class=\"input-radio-color__list\">\r\n                            <label class=\"input-radio-color__item input-radio-color__item--white\" style=\"color: #fff;\" data-toggle=\"tooltip\" title=\"White\">\r\n                                <input type=\"radio\" name=\"color\">\r\n                                <span></span>\r\n                            </label>\r\n                            <label class=\"input-radio-color__item\" style=\"color: #ffd333;\" data-toggle=\"tooltip\" title=\"Yellow\">\r\n                                <input type=\"radio\" name=\"color\">\r\n                                <span></span>\r\n                            </label>\r\n                            <label class=\"input-radio-color__item\" style=\"color: #ff4040;\" data-toggle=\"tooltip\" title=\"Red\">\r\n                                <input type=\"radio\" name=\"color\">\r\n                                <span></span>\r\n                            </label>\r\n                            <label class=\"input-radio-color__item input-radio-color__item--disabled\" style=\"color: #4080ff;\" data-toggle=\"tooltip\" title=\"Blue\">\r\n                                <input type=\"radio\" name=\"color\" disabled>\r\n                                <span></span>\r\n                            </label>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n                <div class=\"form-group product__option\">\r\n                    <label class=\"product__option-label\">Material</label>\r\n                    <div class=\"input-radio-label\">\r\n                        <div class=\"input-radio-label__list\">\r\n                            <label>\r\n                                <input type=\"radio\" name=\"material\">\r\n                                <span>Metal</span>\r\n                            </label>\r\n                            <label>\r\n                                <input type=\"radio\" name=\"material\">\r\n                                <span>Wood</span>\r\n                            </label>\r\n                            <label>\r\n                                <input type=\"radio\" name=\"material\" disabled>\r\n                                <span>Plastic</span>\r\n                            </label>\r\n                        </div>\r\n                    </div>\r\n                </div> -->\r\n                <div class=\"form-group product__option\">\r\n                    <label class=\"product__option-label\">Quantity</label>\r\n                    <div class=\"product__actions\">\r\n                        <div class=\"product__actions-item\">\r\n                            <app-input-number aria-label=\"Quantity\" class=\"product__quantity\" size=\"lg\" [min]=\"1\" [formControl]=\"quantity\"></app-input-number>\r\n                        </div>\r\n                        <div class=\"product__actions-item product__actions-item--addtocart\">\r\n                            <button type=\"button\" class=\"btn btn-primary btn-lg\"\r\n                                    [ngClass]=\"{'btn-loading': addingToCart}\"\r\n                                    appClick (click)=\"addToCart()\">Add to cart</button>\r\n                        </div>\r\n                        <div class=\"product__actions-item product__actions-item--wishlist\">\r\n                            <button type=\"button\" class=\"btn btn-secondary btn-svg-icon btn-lg\" data-toggle=\"tooltip\" title=\"Wishlist\"\r\n                                    [ngClass]=\"{'btn-loading': addingToWishlist}\"\r\n                                    appClick (click)=\"addToWishlist()\">\r\n                                <app-icon name=\"wishlist-16\" size=\"16\"></app-icon>\r\n                            </button>\r\n                        </div>\r\n                        <div class=\"product__actions-item product__actions-item--compare\">\r\n                            <button type=\"button\" class=\"btn btn-secondary btn-svg-icon btn-lg\" data-toggle=\"tooltip\" title=\"Compare\"\r\n                                    [ngClass]=\"{'btn-loading': addingToCompare}\"\r\n                                    appClick (click)=\"addToCompare()\">\r\n                                <app-icon name=\"compare-16\" size=\"16\"></app-icon>\r\n                            </button>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </form>\r\n            <!-- .product__options / end -->\r\n        </div>\r\n        <!-- .product__end -->\r\n        <div class=\"product__footer\">\r\n            <button class=\"btn btn-secondary\" (click)=\"openModal(template)\">Read some page</button>\r\n            \r\n            <ng-template #template>\r\n                <div class=\"modal-header\">\r\n                    <h4 class=\"modal-title pull-left\">{{ product.name }}</h4>\r\n                    <button type=\"button\" class=\"close pull-right\" aria-label=\"Close\" (click)=\"modalRef.hide()\">\r\n                    <span aria-hidden=\"true\">&times;</span>\r\n                    </button>\r\n                </div>\r\n                <div class=\"modal-body\">\r\n                    <iframe src=\"https://cdn.s3waas.gov.in/master/uploads/2016/09/document_1481208108.pdf\" frameborder=\"0\" height=\"600\" width=\"100%\"></iframe>\r\n                </div>\r\n            </ng-template>\r\n\r\n            <!-- <div class=\"product__tags tags\">\r\n                <div class=\"tags__list\">\r\n                    <a href=\"\" appClick>Mounts</a>\r\n                    <a href=\"\" appClick>Electrodes</a>\r\n                    <a href=\"\" appClick>Chainsaws</a>\r\n                </div>\r\n            </div> -->\r\n        </div>\r\n    </div>\r\n</div>\r\n"
+module.exports = "<div class=\"product product--layout--{{ layout }}\" *ngIf=\"product\">\r\n    <div class=\"product__content\">\r\n        <!-- .product__gallery -->\r\n        <div class=\"product__gallery\">\r\n            <div class=\"product-gallery\" *ngIf=\"showGallery\">\r\n                <div class=\"product-gallery__featured\">\r\n                    \r\n                    <owl-carousel-o [options]=\"carouselOptions\" (changed)=\"featuredCarouselTranslated($event)\" appOwlPreventClick #featuredCarousel>\r\n                        <ng-container *ngFor=\"let image of images\">\r\n                            <ng-template carouselSlide [id]=\"image.id\">\r\n                                <a (click)=\"openModal(template)\">\r\n                                    <span class=\"bg\">\r\n                                        <img [src]=\"image.url\" alt=\"\" #imageElement>\r\n                                    </span>\r\n                                </a>\r\n                            </ng-template>\r\n                        </ng-container>\r\n                    </owl-carousel-o>\r\n                </div>\r\n                <!-- <div class=\"product-gallery__carousel\">\r\n                    <owl-carousel-o [options]=\"thumbnailsCarouselOptions\" [appFakeSlides]=\"images.length\" #fakeSlides=\"appFakeSlides\" appOwlPreventClick #thumbnailsCarousel>\r\n                        <ng-container *ngFor=\"let image of images\">\r\n                            <ng-template carouselSlide [id]=\"image.id\">\r\n                                <span class=\"product-gallery__carousel-item\"\r\n                                   [ngClass]=\"{'product-gallery__carousel-item--active': image.active}\"\r\n                                   appClick (click)=\"featuredCarousel.to(image.id); setActiveImage(image)\">\r\n                                    <img class=\"product-gallery__carousel-image\" [src]=\"image.url\" alt=\"\">\r\n                                </span>\r\n                            </ng-template>\r\n                        </ng-container>\r\n                        <ng-container *ngFor=\"let i of fakeSlides.slides\">\r\n                            <ng-template carouselSlide [id]=\"'fake-slide-'+i\"></ng-template>\r\n                        </ng-container>\r\n                    </owl-carousel-o>\r\n                </div> -->\r\n            </div>\r\n        </div>\r\n        <!-- .product__gallery / end -->\r\n        <!-- .product__info -->\r\n        <div class=\"product__info\">\r\n            <div class=\"product__wishlist-compare\">\r\n                <button type=\"button\" class=\"btn btn-sm btn-light btn-svg-icon\" data-toggle=\"tooltip\" data-placement=\"right\" title=\"Wishlist\"\r\n                        appClick (click)=\"addToWishlist()\"\r\n                        [ngClass]=\"{'btn-loading': addingToWishlist}\">\r\n                    <app-icon name=\"wishlist-16\" size=\"16\"></app-icon>\r\n                </button>\r\n                <button type=\"button\" class=\"btn btn-sm btn-light btn-svg-icon\" data-toggle=\"tooltip\" data-placement=\"right\" title=\"Compare\"\r\n                        appClick (click)=\"addToCompare()\"\r\n                        [ngClass]=\"{'btn-loading': addingToCompare}\">\r\n                    <app-icon name=\"compare-16\" size=\"16\"></app-icon>\r\n                </button>\r\n            </div>\r\n            <h1 class=\"product__name\">{{ product.name }}</h1>\r\n            <div class=\"product__rating\">\r\n                <div class=\"product__rating-stars\">\r\n                    <app-rating [value]=\"product.rating\"></app-rating>\r\n                </div>\r\n                <div class=\"product__rating-legend\">\r\n                    <a href=\"\" appClick>{{ product.reviews }} Reviews</a><span>/</span><a href=\"\" appClick>Write A Review</a>\r\n                </div>\r\n            </div>\r\n            <div class=\"product__description\">\r\n                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ornare, mi in ornare elementum, libero nibh\r\n                lacinia urna, quis convallis lorem erat at purus. Maecenas eu varius nisi.\r\n            </div>\r\n            <ul class=\"product__features\">\r\n                <li>Pages: 750</li>\r\n                <li>Power Source: Cordless-Electric</li>\r\n                <li>Battery Cell Type: Lithium</li>\r\n                <li>Voltage: 20 Volts</li>\r\n                <li>Battery Capacity: 2 Ah</li>\r\n            </ul>\r\n            <ul class=\"product__meta\">\r\n                <li class=\"product__meta-availability\">Availability: <span class=\"text-success\">In Stock</span></li>\r\n                <li>Author: <a href=\"\" appClick>Wakita</a></li>\r\n                <li>SKU: 83690/32</li>\r\n            </ul>\r\n        </div>\r\n        <!-- .product__info / end -->\r\n        <!-- .product__sidebar -->\r\n        <div class=\"product__sidebar\">\r\n            <div class=\"product__availability\">\r\n                Availability: <span class=\"text-success\">In Stock</span>\r\n            </div>\r\n\r\n            <div class=\"product__prices\">\r\n                <ng-container *ngIf=\"product.compareAtPrice\">\r\n                    <span class=\"product__new-price\">{{ product.price|currencyFormat }}</span>{{ ' ' }}\r\n                    <span class=\"product__old-price\">{{ product.compareAtPrice|currencyFormat }}</span>\r\n                </ng-container>\r\n                <ng-container *ngIf=\"!product.compareAtPrice\">\r\n                    {{ product.price|currencyFormat }}\r\n                </ng-container>\r\n            </div>\r\n            <!-- .product__options -->\r\n            <form class=\"product__options\">\r\n                <!-- <div class=\"form-group product__option\">\r\n                    <label class=\"product__option-label\">Color</label>\r\n                    <div class=\"input-radio-color\">\r\n                        <div class=\"input-radio-color__list\">\r\n                            <label class=\"input-radio-color__item input-radio-color__item--white\" style=\"color: #fff;\" data-toggle=\"tooltip\" title=\"White\">\r\n                                <input type=\"radio\" name=\"color\">\r\n                                <span></span>\r\n                            </label>\r\n                            <label class=\"input-radio-color__item\" style=\"color: #ffd333;\" data-toggle=\"tooltip\" title=\"Yellow\">\r\n                                <input type=\"radio\" name=\"color\">\r\n                                <span></span>\r\n                            </label>\r\n                            <label class=\"input-radio-color__item\" style=\"color: #ff4040;\" data-toggle=\"tooltip\" title=\"Red\">\r\n                                <input type=\"radio\" name=\"color\">\r\n                                <span></span>\r\n                            </label>\r\n                            <label class=\"input-radio-color__item input-radio-color__item--disabled\" style=\"color: #4080ff;\" data-toggle=\"tooltip\" title=\"Blue\">\r\n                                <input type=\"radio\" name=\"color\" disabled>\r\n                                <span></span>\r\n                            </label>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n                <div class=\"form-group product__option\">\r\n                    <label class=\"product__option-label\">Material</label>\r\n                    <div class=\"input-radio-label\">\r\n                        <div class=\"input-radio-label__list\">\r\n                            <label>\r\n                                <input type=\"radio\" name=\"material\">\r\n                                <span>Metal</span>\r\n                            </label>\r\n                            <label>\r\n                                <input type=\"radio\" name=\"material\">\r\n                                <span>Wood</span>\r\n                            </label>\r\n                            <label>\r\n                                <input type=\"radio\" name=\"material\" disabled>\r\n                                <span>Plastic</span>\r\n                            </label>\r\n                        </div>\r\n                    </div>\r\n                </div> -->\r\n                <div class=\"form-group product__option\">\r\n                    <label class=\"product__option-label\">Quantity</label>\r\n                    <div class=\"product__actions\">\r\n                        <div class=\"product__actions-item\">\r\n                            <app-input-number aria-label=\"Quantity\" class=\"product__quantity\" size=\"lg\" [min]=\"1\" [formControl]=\"quantity\"></app-input-number>\r\n                        </div>\r\n                        <div class=\"product__actions-item product__actions-item--addtocart\">\r\n                            <button type=\"button\" class=\"btn btn-primary btn-lg\"\r\n                                    [ngClass]=\"{'btn-loading': addingToCart}\"\r\n                                    appClick (click)=\"addToCart()\">Add to cart</button>\r\n                        </div>\r\n                        <div class=\"product__actions-item product__actions-item--wishlist\">\r\n                            <button type=\"button\" class=\"btn btn-secondary btn-svg-icon btn-lg\" data-toggle=\"tooltip\" title=\"Wishlist\"\r\n                                    [ngClass]=\"{'btn-loading': addingToWishlist}\"\r\n                                    appClick (click)=\"addToWishlist()\">\r\n                                <app-icon name=\"wishlist-16\" size=\"16\"></app-icon>\r\n                            </button>\r\n                        </div>\r\n                        <div class=\"product__actions-item product__actions-item--compare\">\r\n                            <button type=\"button\" class=\"btn btn-secondary btn-svg-icon btn-lg\" data-toggle=\"tooltip\" title=\"Compare\"\r\n                                    [ngClass]=\"{'btn-loading': addingToCompare}\"\r\n                                    appClick (click)=\"addToCompare()\">\r\n                                <app-icon name=\"compare-16\" size=\"16\"></app-icon>\r\n                            </button>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n            </form>\r\n            <!-- .product__options / end -->\r\n        </div>\r\n        <!-- .product__end -->\r\n        <div class=\"product__footer\">\r\n            <button class=\"btn btn-secondary\" (click)=\"openModal(template)\">Read some page</button>\r\n            \r\n            <ng-template #template>\r\n                <div class=\"modal-header\">\r\n                    <h4 class=\"modal-title pull-left\">{{ product.name }}</h4>\r\n                    <button type=\"button\" class=\"close pull-right\" aria-label=\"Close\" (click)=\"modalRef.hide()\">\r\n                    <span aria-hidden=\"true\">&times;</span>\r\n                    </button>\r\n                </div>\r\n                <div class=\"modal-body\">\r\n                    <iframe src=\"https://cdn.s3waas.gov.in/master/uploads/2016/09/document_1481208108.pdf\" frameborder=\"0\" height=\"600\" width=\"100%\"></iframe>\r\n                </div>\r\n            </ng-template>\r\n\r\n            <!-- <div class=\"product__tags tags\">\r\n                <div class=\"tags__list\">\r\n                    <a href=\"\" appClick>Mounts</a>\r\n                    <a href=\"\" appClick>Electrodes</a>\r\n                    <a href=\"\" appClick>Chainsaws</a>\r\n                </div>\r\n            </div> -->\r\n        </div>\r\n    </div>\r\n</div>\r\n"
 
 /***/ }),
 
@@ -2660,18 +2660,26 @@ __webpack_require__.r(__webpack_exports__);
 let TopbarComponent = class TopbarComponent {
     constructor(currencyService) {
         this.currencyService = currencyService;
+        // languages = [
+        //     {name: 'English', image: 'language-1'},
+        //     {name: 'French',  image: 'language-2'},
+        //     {name: 'German',  image: 'language-3'},
+        //     {name: 'Russian', image: 'language-4'},
+        //     {name: 'Italian', image: 'language-5'}
+        // ];
         this.languages = [
-            { name: 'English', image: 'language-1' },
-            { name: 'French', image: 'language-2' },
-            { name: 'German', image: 'language-3' },
-            { name: 'Russian', image: 'language-4' },
-            { name: 'Italian', image: 'language-5' }
+            { name: 'Bangali', image: 'language-1' },
+            { name: 'English', image: 'language-2' }
         ];
+        // currencies = [
+        //     {name: '€ Euro',           url: '', code: 'EUR', symbol: '€'},
+        //     {name: '£ Pound Sterling', url: '', code: 'GBP', symbol: '£'},
+        //     {name: '$ US Dollar',      url: '', code: 'USD', symbol: '$'},
+        //     {name: '₽ Russian Ruble',  url: '', code: 'RUB', symbol: '₽'}
+        // ];
         this.currencies = [
-            { name: '€ Euro', url: '', code: 'EUR', symbol: '€' },
-            { name: '£ Pound Sterling', url: '', code: 'GBP', symbol: '£' },
-            { name: '$ US Dollar', url: '', code: 'USD', symbol: '$' },
-            { name: '₽ Russian Ruble', url: '', code: 'RUB', symbol: '₽' }
+            { name: '৳ BD Taka', url: '', code: 'BDT', symbol: '৳' },
+            { name: '$ US Dollar', url: '', code: 'USD', symbol: '$' }
         ];
     }
     setCurrency(currency) {
@@ -6896,145 +6904,145 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "navigation", function() { return navigation; });
 const navigation = [
     // {label: 'Home', url: './'},
-    { label: 'Subject', url: './shop/category-grid-5-columns-full', menu: {
+    { label: 'Subject', url: './shop', menu: {
             type: 'megamenu',
             size: 'xl',
             columns: [
-                { size: 3, items: [{ label: 'প্যাকেজ', url: './shop' }] },
-                { size: 3, items: [{ label: 'ইংরেজি ভাষার বই', url: './shop' }] },
-                { size: 3, items: [{ label: 'অনুবাদ', url: './shop' }] },
-                { size: 3, items: [{ label: 'গণিত', url: './shop' }] },
-                { size: 3, items: [{ label: 'জীবনী, স্মৃতিচারণ ও সাক্ষাৎকার', url: './shop' }] },
-                { size: 3, items: [{ label: 'শিশু-কিশোর বই', url: './shop' }] },
-                { size: 3, items: [{ label: 'ইসলামি', url: './shop' }] },
-                { size: 3, items: [{ label: 'রাজনীতি', url: './shop' }] },
-                { size: 3, items: [{ label: 'আত্ম-উন্নয়ন ও মেডিটেশন', url: './shop' }] },
-                { size: 3, items: [{ label: 'মুক্তিযুদ্ধ', url: './shop' }] },
-                { size: 3, items: [{ label: 'ভর্তি, নিয়োগ ও প্রস্তুতি পরীক্ষা', url: './shop' }] },
-                { size: 3, items: [{ label: 'উপন্যাস', url: './shop' }] },
-                { size: 3, items: [{ label: 'রহস্য, থ্রিলার ও অ্যাডভেঞ্চার', url: './shop' }] },
-                { size: 3, items: [{ label: 'ইঞ্জিনিয়ারিং', url: './shop' }] },
-                { size: 3, items: [{ label: 'ইতিহাস ও ঐতিহ্য', url: './shop' }] },
-                { size: 3, items: [{ label: 'পশ্চিমবঙ্গের বই', url: './shop' }] },
-                { size: 3, items: [{ label: 'পুরস্কারপ্রাপ্ত বই', url: './shop' }] },
-                { size: 3, items: [{ label: 'স্কুল ও কলেজ বই', url: './shop' }] },
-                { size: 3, items: [{ label: 'ব্যবসা, বিনিয়োগ ও অর্থনীতি', url: './shop' }] },
-                { size: 3, items: [{ label: 'সায়েন্স ফিকশন', url: './shop' }] },
-                { size: 3, items: [{ label: 'আইন ও বিচার', url: './shop' }] },
-                { size: 3, items: [{ label: 'কমিকস, নকশা ও ছবির গল্প', url: './shop' }] },
-                { size: 3, items: [{ label: 'ভ্রমণ ও প্রবাস', url: './shop' }] },
-                { size: 3, items: [{ label: 'ইউনিভার্সিটি', url: './shop' }] },
-                { size: 3, items: [{ label: 'ভাষা ও অভিধান', url: './shop' }] },
-                { size: 3, items: [{ label: 'ডিজাইন ও ফটোগ্রাফি', url: './shop' }] },
-                { size: 3, items: [{ label: 'রকমারি নির্বাচিত বই', url: './shop' }] },
-                { size: 3, items: [{ label: 'স্বাস্থ্য, পরিচর্যা ও রোগ নিরাময়', url: './shop' }] },
-                { size: 3, items: [{ label: 'মেডিকেল', url: './shop' }] },
-                { size: 3, items: [{ label: 'প্রফেশনাল, জার্নাল ও রেফারেন্স', url: './shop' }] },
-                { size: 3, items: [{ label: 'কৃষি ও কৃষক', url: './shop' }] },
-                { size: 3, items: [{ label: 'view all', url: './shop' }] }
+                { size: 3, items: [{ label: 'প্যাকেজ', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'ইংরেজি ভাষার বই', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'অনুবাদ', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'গণিত', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'জীবনী, স্মৃতিচারণ ও সাক্ষাৎকার', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'শিশু-কিশোর বই', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'ইসলামি', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'রাজনীতি', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'আত্ম-উন্নয়ন ও মেডিটেশন', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'মুক্তিযুদ্ধ', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'ভর্তি, নিয়োগ ও প্রস্তুতি পরীক্ষা', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'উপন্যাস', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'রহস্য, থ্রিলার ও অ্যাডভেঞ্চার', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'ইঞ্জিনিয়ারিং', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'ইতিহাস ও ঐতিহ্য', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'পশ্চিমবঙ্গের বই', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'পুরস্কারপ্রাপ্ত বই', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'স্কুল ও কলেজ বই', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'ব্যবসা, বিনিয়োগ ও অর্থনীতি', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'সায়েন্স ফিকশন', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'আইন ও বিচার', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'কমিকস, নকশা ও ছবির গল্প', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'ভ্রমণ ও প্রবাস', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'ইউনিভার্সিটি', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'ভাষা ও অভিধান', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'ডিজাইন ও ফটোগ্রাফি', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'রকমারি নির্বাচিত বই', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'স্বাস্থ্য, পরিচর্যা ও রোগ নিরাময়', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'মেডিকেল', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'প্রফেশনাল, জার্নাল ও রেফারেন্স', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'কৃষি ও কৃষক', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'view all', url: './shop/category-grid-5-columns-full' }] }
             ]
         } },
-    { label: 'Publications', url: './shop/category-grid-5-columns-full', menu: {
+    { label: 'Publications', url: './shop', menu: {
             type: 'megamenu',
             size: 'xl',
             columns: [
-                { size: 3, items: [{ label: 'সেবা প্রকাশনী', url: './shop' }] },
-                { size: 3, items: [{ label: 'প্রথমা প্রকাশন', url: './shop' }] },
-                { size: 3, items: [{ label: 'বাংলা একাডেমি', url: './shop' }] },
-                { size: 3, items: [{ label: 'ঐতিহ্য', url: './shop' }] },
-                { size: 3, items: [{ label: 'ইসলামিক ফাউন্ডেশন', url: './shop' }] },
-                { size: 3, items: [{ label: 'বাতিঘর প্রকাশনী', url: './shop' }] },
-                { size: 3, items: [{ label: 'বিশ্বসাহিত্য কেন্দ্র', url: './shop' }] },
-                { size: 3, items: [{ label: 'অন্যপ্রকাশ', url: './shop' }] },
-                { size: 3, items: [{ label: 'আনন্দ পাবলিশার্স', url: './shop' }] },
-                { size: 3, items: [{ label: 'আদর্শ', url: './shop' }] },
-                { size: 3, items: [{ label: 'দি ইউ পি এল', url: './shop' }] },
-                { size: 3, items: [{ label: 'দে’জ পাবলিশিং', url: './shop' }] },
-                { size: 3, items: [{ label: 'পাঞ্জেরী পাবলিকেশন', url: './shop' }] },
-                { size: 3, items: [{ label: 'সময় প্রকাশন', url: './shop' }] },
-                { size: 3, items: [{ label: 'তাম্রলিপি', url: './shop' }] },
-                { size: 3, items: [{ label: 'জ্ঞানকোষ প্রকাশনী', url: './shop' }] },
-                { size: 3, items: [{ label: 'আগামী প্রকাশনী', url: './shop' }] },
-                { size: 3, items: [{ label: 'পাঠক সমাবেশ', url: './shop' }] },
-                { size: 3, items: [{ label: 'বিসিএস প্রকাশন', url: './shop' }] },
-                { size: 3, items: [{ label: 'তাওহীদ পাবলিকেশন্স', url: './shop' }] },
-                { size: 3, items: [{ label: 'মিত্র ও ঘোষ পাবলিশার্স', url: './shop' }] },
-                { size: 3, items: [{ label: 'মাকতাবাতুল আযহার', url: './shop' }] },
-                { size: 3, items: [{ label: 'অনন্যা', url: './shop' }] },
-                { size: 3, items: [{ label: 'সিসটেক পাবলিকেশন্স', url: './shop' }] },
-                { size: 3, items: [{ label: 'সন্দেশ', url: './shop' }] },
-                { size: 3, items: [{ label: 'ঢাকা কমিক্স', url: './shop' }] },
-                { size: 3, items: [{ label: 'হারপারকলিন্স পাবলিশার্স', url: './shop' }] },
-                { size: 3, items: [{ label: 'বিজ্ঞান একাডেমী', url: './shop' }] },
-                { size: 3, items: [{ label: 'এমদাদিয়া লাইব্রেরী', url: './shop' }] },
-                { size: 3, items: [{ label: 'পিয়ারসন', url: './shop' }] },
-                { size: 3, items: [{ label: 'লেকচার', url: './shop' }] },
-                { size: 3, items: [{ label: 'view all', url: './shop' }] }
+                { size: 3, items: [{ label: 'সেবা প্রকাশনী', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'প্রথমা প্রকাশন', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'বাংলা একাডেমি', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'ঐতিহ্য', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'ইসলামিক ফাউন্ডেশন', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'বাতিঘর প্রকাশনী', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'বিশ্বসাহিত্য কেন্দ্র', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'অন্যপ্রকাশ', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'আনন্দ পাবলিশার্স', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'আদর্শ', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'দি ইউ পি এল', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'দে’জ পাবলিশিং', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'পাঞ্জেরী পাবলিকেশন', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'সময় প্রকাশন', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'তাম্রলিপি', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'জ্ঞানকোষ প্রকাশনী', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'আগামী প্রকাশনী', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'পাঠক সমাবেশ', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'বিসিএস প্রকাশন', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'তাওহীদ পাবলিকেশন্স', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'মিত্র ও ঘোষ পাবলিশার্স', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'মাকতাবাতুল আযহার', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'অনন্যা', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'সিসটেক পাবলিকেশন্স', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'সন্দেশ', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'ঢাকা কমিক্স', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'হারপারকলিন্স পাবলিশার্স', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'বিজ্ঞান একাডেমী', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'এমদাদিয়া লাইব্রেরী', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'পিয়ারসন', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'লেকচার', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'view all', url: './shop/category-grid-5-columns-full' }] }
             ]
         } },
-    { label: 'Writer', url: './shop/category-grid-5-columns-full', menu: {
+    { label: 'Writer', url: './shop', menu: {
             type: 'megamenu',
             size: 'xl',
             columns: [
-                { size: 3, items: [{ label: 'হুমায়ূন আহমেদ', url: './shop' }] },
-                { size: 3, items: [{ label: 'মুহম্মদ জাফর ইকবাল', url: './shop' }] },
-                { size: 3, items: [{ label: 'সমরেশ মজুমদার', url: './shop' }] },
-                { size: 3, items: [{ label: 'রবীন্দ্রনাথ ঠাকুর', url: './shop' }] },
-                { size: 3, items: [{ label: 'সুনীল গঙ্গোপাধ্যায়', url: './shop' }] },
-                { size: 3, items: [{ label: 'আনিসুল হক', url: './shop' }] },
-                { size: 3, items: [{ label: 'শীর্ষেন্দু মুখোপাধ্যায়', url: './shop' }] },
-                { size: 3, items: [{ label: 'সত্যজিৎ রায়', url: './shop' }] },
-                { size: 3, items: [{ label: 'আহমদ ছফা', url: './shop' }] },
-                { size: 3, items: [{ label: 'বিভূতিভূষণ বন্দ্যোপাধ্যায়', url: './shop' }] },
-                { size: 3, items: [{ label: 'সৈয়দ শামসুল হক', url: './shop' }] },
-                { size: 3, items: [{ label: 'সাদাত হোসাইন', url: './shop' }] },
-                { size: 3, items: [{ label: 'তামিম শাহরিয়ার সুবিন', url: './shop' }] },
-                { size: 3, items: [{ label: 'কাজী নজরুল ইসলাম', url: './shop' }] },
-                { size: 3, items: [{ label: 'হুমায়ুন আজাদ', url: './shop' }] },
-                { size: 3, items: [{ label: 'জহির রায়হান', url: './shop' }] },
-                { size: 3, items: [{ label: 'ড্যান ব্রাউন', url: './shop' }] },
-                { size: 3, items: [{ label: 'চেতন ভগত', url: './shop' }] },
-                { size: 3, items: [{ label: 'রকিব হাসান', url: './shop' }] },
-                { size: 3, items: [{ label: 'সৈয়দ মুজতবা আলী', url: './shop' }] },
-                { size: 3, items: [{ label: 'মানিক বন্দ্যোপাধ্যায়', url: './shop' }] },
-                { size: 3, items: [{ label: 'বঙ্কিমচন্দ্র চট্টোপাধ্যায়', url: './shop' }] },
-                { size: 3, items: [{ label: 'আখতারুজ্জামান ইলিয়াস', url: './shop' }] },
-                { size: 3, items: [{ label: 'ইমদাদুল হক মিলন', url: './shop' }] },
-                { size: 3, items: [{ label: 'সেলিনা হোসেন', url: './shop' }] },
-                { size: 3, items: [{ label: 'স্টিফেন কিং', url: './shop' }] },
-                { size: 3, items: [{ label: 'জে. কে. রাওলিং', url: './shop' }] },
-                { size: 3, items: [{ label: 'কাজী আনোয়ার হোসেন', url: './shop' }] },
-                { size: 3, items: [{ label: 'সুমন্ত আসলাম', url: './shop' }] },
-                { size: 3, items: [{ label: 'পাওলো কোয়েলহো', url: './shop' }] },
-                { size: 3, items: [{ label: 'শওকত ওসমান', url: './shop' }] },
-                { size: 3, items: [{ label: 'view all', url: './shop' }] }
+                { size: 3, items: [{ label: 'হুমায়ূন আহমেদ', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'মুহম্মদ জাফর ইকবাল', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'সমরেশ মজুমদার', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'রবীন্দ্রনাথ ঠাকুর', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'সুনীল গঙ্গোপাধ্যায়', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'আনিসুল হক', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'শীর্ষেন্দু মুখোপাধ্যায়', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'সত্যজিৎ রায়', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'আহমদ ছফা', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'বিভূতিভূষণ বন্দ্যোপাধ্যায়', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'সৈয়দ শামসুল হক', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'সাদাত হোসাইন', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'তামিম শাহরিয়ার সুবিন', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'কাজী নজরুল ইসলাম', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'হুমায়ুন আজাদ', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'জহির রায়হান', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'ড্যান ব্রাউন', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'চেতন ভগত', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'রকিব হাসান', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'সৈয়দ মুজতবা আলী', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'মানিক বন্দ্যোপাধ্যায়', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'বঙ্কিমচন্দ্র চট্টোপাধ্যায়', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'আখতারুজ্জামান ইলিয়াস', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'ইমদাদুল হক মিলন', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'সেলিনা হোসেন', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'স্টিফেন কিং', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'জে. কে. রাওলিং', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'কাজী আনোয়ার হোসেন', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'সুমন্ত আসলাম', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'পাওলো কোয়েলহো', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'শওকত ওসমান', url: './shop/category-grid-5-columns-full' }] },
+                { size: 3, items: [{ label: 'view all', url: './shop/category-grid-5-columns-full' }] }
             ]
         } },
-    { label: 'Editorial Equipment', url: './shop/category-grid-5-columns-full' },
-    { label: 'Printing/Press', url: './shop/category-grid-5-columns-full' },
-    { label: 'Art', url: './shop/category-grid-5-columns-full' },
-    { label: 'Old Books', url: './shop/category-grid-5-columns-full' },
-    { label: 'Stationary', url: './shop/category-grid-5-columns-full' }
-    // {label: 'Shop', url: './shop', menu: {
+    { label: 'Editorial Equipment', url: './shop' },
+    { label: 'Printing/Press', url: './shop' },
+    { label: 'Art', url: './shop' },
+    { label: 'Old Books', url: './shop' },
+    { label: 'Stationary', url: './shop' }
+    // {label: 'Shop', url: './shop/category-grid-5-columns-full', menu: {
     //     type: 'menu',
     //     items: [
-    //         {label: 'Shop Grid', url: './shop', items: [
-    //             {label: '3 Columns Sidebar', url: './shop/category-grid-3-columns-sidebar'},
-    //             {label: '4 Columns Full',    url: './shop/category-grid-4-columns-full'},
-    //             {label: '5 Columns Full',    url: './shop/category-grid-5-columns-full'}
+    //         {label: 'Shop Grid', url: './shop/category-grid-5-columns-full', items: [
+    //             {label: '3 Columns Sidebar', url: './shop/category-grid-5-columns-full/category-grid-3-columns-sidebar'},
+    //             {label: '4 Columns Full',    url: './shop/category-grid-5-columns-full/category-grid-4-columns-full'},
+    //             {label: '5 Columns Full',    url: './shop'}
     //         ]},
-    //         {label: 'Shop List', url: './shop/category-list'},
-    //         {label: 'Shop Right Sidebar', url: './shop/category-right-sidebar'},
-    //         {label: 'Product', url: './shop/product', items: [
-    //             {label: 'Product', url: './shop/product'},
-    //             {label: 'Product Alt', url: './shop/product-columnar'},
-    //             {label: 'Product Sidebar', url: './shop/product-sidebar'}
+    //         {label: 'Shop List', url: './shop/category-grid-5-columns-full/category-list'},
+    //         {label: 'Shop Right Sidebar', url: './shop/category-grid-5-columns-full/category-right-sidebar'},
+    //         {label: 'Product', url: './shop/category-grid-5-columns-full/product', items: [
+    //             {label: 'Product', url: './shop/category-grid-5-columns-full/product'},
+    //             {label: 'Product Alt', url: './shop/category-grid-5-columns-full/product-columnar'},
+    //             {label: 'Product Sidebar', url: './shop/category-grid-5-columns-full/product-sidebar'}
     //         ]},
-    //         {label: 'Cart', url: './shop/cart'},
-    //         {label: 'Checkout', url: './shop/checkout'},
-    //         {label: 'Wishlist', url: './shop/wishlist'},
-    //         {label: 'Compare', url: './shop/compare'},
-    //         {label: 'Track Order', url: './shop/track-order'},
+    //         {label: 'Cart', url: './shop/category-grid-5-columns-full/cart'},
+    //         {label: 'Checkout', url: './shop/category-grid-5-columns-full/checkout'},
+    //         {label: 'Wishlist', url: './shop/category-grid-5-columns-full/wishlist'},
+    //         {label: 'Compare', url: './shop/category-grid-5-columns-full/compare'},
+    //         {label: 'Track Order', url: './shop/category-grid-5-columns-full/track-order'},
     //     ]
     // }},
     // {label: 'Account', url: './account', menu: {
@@ -7090,84 +7098,120 @@ const navigation = [
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "mobileMenu", function() { return mobileMenu; });
 const mobileMenu = [
-    { type: 'link', label: 'Home', url: './', children: [
-            { type: 'link', label: 'Home 1', url: '/classic' },
-            { type: 'link', label: 'Home 2', url: '/compact' }
-        ] },
-    { type: 'link', label: 'Categories', url: '', children: [
-            { type: 'link', label: 'Power Tools', url: '', children: [
-                    { type: 'link', label: 'Engravers', url: '' },
-                    { type: 'link', label: 'Wrenches', url: '' },
-                    { type: 'link', label: 'Wall Chaser', url: '' },
-                    { type: 'link', label: 'Pneumatic Tools', url: '' }
-                ] },
-            { type: 'link', label: 'Machine Tools', url: '', children: [
-                    { type: 'link', label: 'Thread Cutting', url: '' },
-                    { type: 'link', label: 'Chip Blowers', url: '' },
-                    { type: 'link', label: 'Sharpening Machines', url: '' },
-                    { type: 'link', label: 'Pipe Cutters', url: '' },
-                    { type: 'link', label: 'Slotting machines', url: '' },
-                    { type: 'link', label: 'Lathes', url: '' }
-                ] }
-        ] },
-    { type: 'link', label: 'Shop', url: './shop', children: [
-            { type: 'link', label: 'Shop Grid', url: './shop', children: [
-                    { type: 'link', label: '3 Columns Sidebar', url: './shop/category-grid-3-columns-sidebar' },
-                    { type: 'link', label: '4 Columns Full', url: './shop/category-grid-4-columns-full' },
-                    { type: 'link', label: '5 Columns Full', url: './shop/category-grid-5-columns-full' }
-                ] },
-            { type: 'link', label: 'Shop List', url: './shop/category-list' },
-            { type: 'link', label: 'Shop Right Sidebar', url: './shop/category-right-sidebar' },
-            { type: 'link', label: 'Product', url: './shop/product', children: [
-                    { type: 'link', label: 'Product', url: './shop/product' },
-                    { type: 'link', label: 'Product Alt', url: './shop/product-columnar' },
-                    { type: 'link', label: 'Product Sidebar', url: './shop/product-sidebar' }
-                ] },
-            { type: 'link', label: 'Cart', url: './shop/cart' },
-            { type: 'link', label: 'Checkout', url: './shop/checkout' },
-            { type: 'link', label: 'Wishlist', url: './shop/wishlist' },
-            { type: 'link', label: 'Compare', url: './shop/compare' },
-            { type: 'link', label: 'Track Order', url: './shop/track-order' }
-        ] },
-    { type: 'link', label: 'Account', url: './account', children: [
-            { type: 'link', label: 'Login', url: './account/login' },
-            { type: 'link', label: 'Dashboard', url: './account/dashboard' },
-            { type: 'link', label: 'Edit Profile', url: './account/profile' },
-            { type: 'link', label: 'Order History', url: './account/orders' },
-            { type: 'link', label: 'Address Book', url: './account/addresses' },
-            { type: 'link', label: 'Change Password', url: './account/password' }
-        ] },
-    { type: 'link', label: 'Blog', url: './blog', children: [
-            { type: 'link', label: 'Blog Classic', url: './blog/category-classic' },
-            { type: 'link', label: 'Blog Grid', url: './blog/category-grid' },
-            { type: 'link', label: 'Blog List', url: './blog/category-list' },
-            { type: 'link', label: 'Blog Left Sidebar', url: './blog/category-left-sidebar' },
-            { type: 'link', label: 'Post Page', url: './blog/post-classic' },
-            { type: 'link', label: 'Post Without Sidebar', url: './blog/post-full' }
-        ] },
-    { type: 'link', label: 'Pages', url: './site', children: [
-            { type: 'link', label: 'About Us', url: './site/about-us' },
-            { type: 'link', label: 'Contact Us', url: './site/contact-us' },
-            { type: 'link', label: 'Contact Us Alt', url: './site/contact-us-alt' },
-            { type: 'link', label: '404', url: './site/not-found' },
-            { type: 'link', label: 'Terms And Conditions', url: './site/terms' },
-            { type: 'link', label: 'FAQ', url: './site/faq' },
-            { type: 'link', label: 'Components', url: './site/components' },
-            { type: 'link', label: 'Typography', url: './site/typography' }
-        ] },
-    { type: 'button', label: 'Currency', children: [
-            { type: 'button', label: '€ Euro', data: { currency: 'EUR' } },
-            { type: 'button', label: '£ Pound Sterling', data: { currency: 'GBP' } },
-            { type: 'button', label: '$ US Dollar', data: { currency: 'USD' } },
-            { type: 'button', label: '₽ Russian Ruble', data: { currency: 'RUB' } }
-        ] },
-    { type: 'button', label: 'Language', children: [
-            { type: 'button', label: 'English', data: { language: 'EN' } },
-            { type: 'button', label: 'French', data: { language: 'FR' } },
-            { type: 'button', label: 'German', data: { language: 'DE' } },
-            { type: 'button', label: 'Russian', data: { language: 'RU' } },
-            { type: 'button', label: 'Italian', data: { language: 'IT' } }
-        ] }
+    { type: 'link', label: 'Home', url: './' },
+    { type: 'link', label: 'Subject', url: './shop',
+        children: [
+            { type: 'link', label: 'প্যাকেজ', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'ইংরেজি ভাষার বই', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'অনুবাদ', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'গণিত', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'জীবনী, স্মৃতিচারণ ও সাক্ষাৎকার', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'শিশু-কিশোর বই', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'ইসলামি', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'রাজনীতি', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'আত্ম-উন্নয়ন ও মেডিটেশন', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'মুক্তিযুদ্ধ', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'ভর্তি, নিয়োগ ও প্রস্তুতি পরীক্ষা', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'উপন্যাস', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'রহস্য, থ্রিলার ও অ্যাডভেঞ্চার', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'ইঞ্জিনিয়ারিং', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'ইতিহাস ও ঐতিহ্য', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'পশ্চিমবঙ্গের বই', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'পুরস্কারপ্রাপ্ত বই', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'স্কুল ও কলেজ বই', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'ব্যবসা, বিনিয়োগ ও অর্থনীতি', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'সায়েন্স ফিকশন', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'আইন ও বিচার', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'কমিকস, নকশা ও ছবির গল্প', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'ভ্রমণ ও প্রবাস', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'ইউনিভার্সিটি', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'ভাষা ও অভিধান', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'ডিজাইন ও ফটোগ্রাফি', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'রকমারি নির্বাচিত বই', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'স্বাস্থ্য, পরিচর্যা ও রোগ নিরাময়', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'মেডিকেল', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'প্রফেশনাল, জার্নাল ও রেফারেন্স', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'কৃষি ও কৃষক', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'view all', url: './shop/category-grid-5-columns-full' }
+        ]
+    },
+    { type: 'link', label: 'Publications', url: './shop',
+        children: [
+            { type: 'link', label: 'সেবা প্রকাশনী', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'প্রথমা প্রকাশন', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'বাংলা একাডেমি', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'ঐতিহ্য', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'ইসলামিক ফাউন্ডেশন', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'বাতিঘর প্রকাশনী', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'বিশ্বসাহিত্য কেন্দ্র', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'অন্যপ্রকাশ', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'আনন্দ পাবলিশার্স', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'আদর্শ', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'দি ইউ পি এল', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'দে’জ পাবলিশিং', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'পাঞ্জেরী পাবলিকেশন', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'সময় প্রকাশন', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'তাম্রলিপি', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'জ্ঞানকোষ প্রকাশনী', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'আগামী প্রকাশনী', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'পাঠক সমাবেশ', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'বিসিএস প্রকাশন', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'তাওহীদ পাবলিকেশন্স', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'মিত্র ও ঘোষ পাবলিশার্স', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'মাকতাবাতুল আযহার', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'অনন্যা', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'সিসটেক পাবলিকেশন্স', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'সন্দেশ', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'ঢাকা কমিক্স', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'হারপারকলিন্স পাবলিশার্স', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'বিজ্ঞান একাডেমী', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'এমদাদিয়া লাইব্রেরী', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'পিয়ারসন', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'লেকচার', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'view all', url: './shop/category-grid-5-columns-full' }
+        ]
+    },
+    { type: 'link', label: 'Writer', url: './shop',
+        children: [
+            { type: 'link', label: 'হুমায়ূন আহমেদ', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'মুহম্মদ জাফর ইকবাল', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'সমরেশ মজুমদার', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'রবীন্দ্রনাথ ঠাকুর', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'সুনীল গঙ্গোপাধ্যায়', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'আনিসুল হক', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'শীর্ষেন্দু মুখোপাধ্যায়', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'সত্যজিৎ রায়', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'আহমদ ছফা', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'বিভূতিভূষণ বন্দ্যোপাধ্যায়', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'সৈয়দ শামসুল হক', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'সাদাত হোসাইন', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'তামিম শাহরিয়ার সুবিন', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'কাজী নজরুল ইসলাম', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'হুমায়ুন আজাদ', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'জহির রায়হান', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'ড্যান ব্রাউন', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'চেতন ভগত', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'রকিব হাসান', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'সৈয়দ মুজতবা আলী', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'মানিক বন্দ্যোপাধ্যায়', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'বঙ্কিমচন্দ্র চট্টোপাধ্যায়', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'আখতারুজ্জামান ইলিয়াস', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'ইমদাদুল হক মিলন', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'সেলিনা হোসেন', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'স্টিফেন কিং', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'জে. কে. রাওলিং', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'কাজী আনোয়ার হোসেন', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'সুমন্ত আসলাম', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'পাওলো কোয়েলহো', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'শওকত ওসমান', url: './shop/category-grid-5-columns-full' },
+            { type: 'link', label: 'view all', url: './shop/category-grid-5-columns-full' }
+        ]
+    },
+    { type: 'link', label: 'Editorial Equipment', url: './shop' },
+    { type: 'link', label: 'Printing/Press', url: './shop' },
+    { type: 'link', label: 'Art', url: './shop' },
+    { type: 'link', label: 'Old Books', url: './shop' },
+    { type: 'link', label: 'Stationary', url: './shop' },
 ];
 
 
